@@ -1,0 +1,29 @@
+.project-card-small-container {
+  width: 400px;
+  margin: 30px 10px;
+  overflow: auto;
+  min-height: 500px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  /* margin-left: 50%;
+  transform: translateX(-50%); */
+  transition: transform 0.3s ease;
+}
+
+.project-card-small-container:hover {
+  transform: scale(1.02);
+}
+
+.project-card-small-info-div {
+  padding: 20px;
+}
+
+.project-card-small-title {
+  margin-top: 0px;
+  width: auto;
+  background-color: black;
+  color: white;
+}

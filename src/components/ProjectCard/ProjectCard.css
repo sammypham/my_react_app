@@ -1,0 +1,65 @@
+.project-card-container {
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.project-card-tag {
+    display: inline-block;
+    flex-direction: row;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    margin-right: 5px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: padding 0.1s ease;
+}
+
+.project-card-tag:hover {
+    padding: 7px;
+    color: black;
+}
+
+.project-card-tool {
+    display: inline-block;
+    flex-direction: row;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    margin-right: 5px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.project-card-title {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.project-card-location {
+    font-size: 16px;
+}
+
+.project-card-date {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.project-card-description {
+    font-size: 20px;
+}
+
+.project-card-learn-more {
+    display: inline-block;
+    flex-direction: row;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    margin-right: 5px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.project-card-learn-more:hover {
+    background-color: rgb(150, 150, 255);
+}

@@ -1,0 +1,44 @@
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.projects-container-scroll {
+    width: auto;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    scrollbar-width: none;
+}
+
+.projects-outer-container {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scrollbar-width: none;
+}
+
+.scroll-button-left {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 1;
+    background-color: white;
+    padding: 5px;
+    font-size: 32px;
+}
+
+.scroll-button-right {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) translateX(50%);
+    z-index: 1;
+    background-color: white;
+    padding: 5px;
+    font-size: 32px;
+}
